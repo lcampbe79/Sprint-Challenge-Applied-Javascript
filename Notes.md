@@ -35,11 +35,11 @@ Your finished project must include all of the following requirements:
 
 
 
-* [ ] Following the instructions in the `Cards/index.js` file, create individual Cards components.
+* [X] Following the instructions in the `Cards/index.js` file, create individual Cards components.
 
-* [ ] create GET request
+* [X] create GET request
 
-* [ ] create variable for card, headline, author, and img-container
+* [X] create variable for card, headline, author, img-container, img and authorsName
 
 * [ ] create function that appends: card, headline, author and img-container to card class
 
