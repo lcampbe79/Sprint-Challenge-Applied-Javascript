@@ -19,19 +19,19 @@ Your finished project must include all of the following requirements:
 
 
 
-* [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
+* [X] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
-* [ ] create GET request
+* [X] create GET request
 
-* [ ] create variable for tab component
+* [X] create variable for tab component
 
-* [ ] create a function that appends: the topic to the header class
+* [X] create a function that appends: the topic to the header class
 
-* [ ] add each to the classList
+* [X] add each to the classList
 
-* [ ] push/add text content to each class
+* [X] push/add text content to each class
 
-* [ ] return header
+* [X] return header
 
 
 
