@@ -41,8 +41,8 @@ Your finished project must include all of the following requirements:
 
 * [X] create variable for card, headline, author, img-container, img and authorsName
 
-* [ ] create function that appends: card, headline, author and img-container to card class
+* [X] create function that appends: card, headline, author and img-container to card class
 
-* [ ] add each to the classList
+* [X] add each to the classList
 
-* [ ]push/add text to each class
+* [X]push/add text to each class

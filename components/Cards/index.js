@@ -41,7 +41,6 @@ articleCard
 })
 
 function newArticleCardComponent(article) {
-    console.log(article)
     const card = document.createElement('div');
     const headline = document.createElement('div');
     const author = document.createElement('div');
@@ -49,10 +48,12 @@ function newArticleCardComponent(article) {
     const img = document.createElement('img');
     const authorsName = document.createElement('span');
 
-    card.appendChild(headline);
-    card.appendChild(author);
-    author.appendChild(imgContainer);
+    headline.textContent = article.headline;
+    author.textContent = article.authorName;
+    img.src = article.authorPhoto;
+
     imgContainer.appendChild(img);
+    author.appendChild(imgContainer);
     author.appendChild(authorsName);
 
     card.classList.add('card');
@@ -60,10 +61,10 @@ function newArticleCardComponent(article) {
     author.classList.add('author');
     imgContainer.classList.add('img-container');
 
-    headline.textContent = article.headline;
-    author.textContent = article.authorName;
-    imgContainer.textContent = article.authorPhoto;
+    card.appendChild(headline);
+    card.appendChild(author);
 
+    console.log(card);
 
     return card;
     
